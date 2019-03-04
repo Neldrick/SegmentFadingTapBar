@@ -7,117 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B12DAA281DA1CA3193A8DEC7BCB0CFBF /* Pods-SegmentFadingTapBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2468BDE8760906BBA4BF2F8E5CD34904 /* Pods-SegmentFadingTapBar-dummy.m */; };
-		C8ACA0E495D1DF8F8CF156F85996B3EA /* Pods-SegmentFadingTapBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01FE20D9E0B592D5FA3676F763257E65 /* Pods-SegmentFadingTapBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC23CC2B0F9B46F343116512110C1FA1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		F0E0968FEB2D5C124A96D8C424E3A69A /* Pods-SegmentFadingTapBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DECABABE5DA65824915B1430E907D6A /* Pods-SegmentFadingTapBar-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		01FE20D9E0B592D5FA3676F763257E65 /* Pods-SegmentFadingTapBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SegmentFadingTapBar-umbrella.h"; sourceTree = "<group>"; };
-		1976719E7251B5C87789810E38433C1D /* Pods_SegmentFadingTapBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SegmentFadingTapBar.framework; path = "Pods-SegmentFadingTapBar.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2468BDE8760906BBA4BF2F8E5CD34904 /* Pods-SegmentFadingTapBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentFadingTapBar-dummy.m"; sourceTree = "<group>"; };
-		31DB4BE0374CA66A29F680105B9CAAB4 /* Pods-SegmentFadingTapBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SegmentFadingTapBar.modulemap"; sourceTree = "<group>"; };
-		99015FB617B5A392D5FA03D061A563AE /* Pods-SegmentFadingTapBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentFadingTapBar.debug.xcconfig"; sourceTree = "<group>"; };
+		786F3B6A5EACC9B57AE0E3BFB3D287A5 /* Pods-SegmentFadingTapBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentFadingTapBar.release.xcconfig"; sourceTree = "<group>"; };
+		79D2FD140B30EF4EA09075CC5EE63913 /* Pods-SegmentFadingTapBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentFadingTapBar-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CFFC13529CF0D6FC1ADA5BA1BB53CDF /* Pods-SegmentFadingTapBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentFadingTapBar.debug.xcconfig"; sourceTree = "<group>"; };
+		7DECABABE5DA65824915B1430E907D6A /* Pods-SegmentFadingTapBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SegmentFadingTapBar-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2F70ADF2B07F88301958A03E081C1EB /* Pods-SegmentFadingTapBar-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentFadingTapBar-acknowledgements.plist"; sourceTree = "<group>"; };
-		A323F1BD57962AA84149C80AA6303B76 /* Pods-SegmentFadingTapBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SegmentFadingTapBar.release.xcconfig"; sourceTree = "<group>"; };
-		C87B615E821D0673452E4BBE639C5E11 /* Pods-SegmentFadingTapBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentFadingTapBar-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E026CECB14F24DECBFF363FEBE219606 /* Pods-SegmentFadingTapBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SegmentFadingTapBar-Info.plist"; sourceTree = "<group>"; };
+		BA1A1D3ED56B16F3716616E9EB6D4C69 /* Pods-SegmentFadingTapBar-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SegmentFadingTapBar-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5E09C459A7E3C44EE9E9D808F22935E /* libPods-SegmentFadingTapBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SegmentFadingTapBar.a"; path = "libPods-SegmentFadingTapBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FAA0C4DE11BB96EA0B9E0C94F3E150B4 /* Frameworks */ = {
+		2D0ABA5E54FB5E61833367C031BD4FC0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC23CC2B0F9B46F343116512110C1FA1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		67AEDBB09B490AE8878294AAE7E5E368 /* Targets Support Files */ = {
+		06BAB9CE4D6DF390E06C041CE17C470A /* Pods-SegmentFadingTapBar */ = {
 			isa = PBXGroup;
 			children = (
-				A759974F6A0A5608CFF5E805012A7278 /* Pods-SegmentFadingTapBar */,
+				BA1A1D3ED56B16F3716616E9EB6D4C69 /* Pods-SegmentFadingTapBar-acknowledgements.markdown */,
+				79D2FD140B30EF4EA09075CC5EE63913 /* Pods-SegmentFadingTapBar-acknowledgements.plist */,
+				7DECABABE5DA65824915B1430E907D6A /* Pods-SegmentFadingTapBar-dummy.m */,
+				7CFFC13529CF0D6FC1ADA5BA1BB53CDF /* Pods-SegmentFadingTapBar.debug.xcconfig */,
+				786F3B6A5EACC9B57AE0E3BFB3D287A5 /* Pods-SegmentFadingTapBar.release.xcconfig */,
+			);
+			name = "Pods-SegmentFadingTapBar";
+			path = "Target Support Files/Pods-SegmentFadingTapBar";
+			sourceTree = "<group>";
+		};
+		488E9658C7F38BA01E31E13AFE356EE6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06BAB9CE4D6DF390E06C041CE17C470A /* Pods-SegmentFadingTapBar */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		66A8AB96D4A6C59FDC7AA12C40C9E738 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				E5E09C459A7E3C44EE9E9D808F22935E /* libPods-SegmentFadingTapBar.a */,
 			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		A759974F6A0A5608CFF5E805012A7278 /* Pods-SegmentFadingTapBar */ = {
-			isa = PBXGroup;
-			children = (
-				31DB4BE0374CA66A29F680105B9CAAB4 /* Pods-SegmentFadingTapBar.modulemap */,
-				C87B615E821D0673452E4BBE639C5E11 /* Pods-SegmentFadingTapBar-acknowledgements.markdown */,
-				A2F70ADF2B07F88301958A03E081C1EB /* Pods-SegmentFadingTapBar-acknowledgements.plist */,
-				2468BDE8760906BBA4BF2F8E5CD34904 /* Pods-SegmentFadingTapBar-dummy.m */,
-				E026CECB14F24DECBFF363FEBE219606 /* Pods-SegmentFadingTapBar-Info.plist */,
-				01FE20D9E0B592D5FA3676F763257E65 /* Pods-SegmentFadingTapBar-umbrella.h */,
-				99015FB617B5A392D5FA03D061A563AE /* Pods-SegmentFadingTapBar.debug.xcconfig */,
-				A323F1BD57962AA84149C80AA6303B76 /* Pods-SegmentFadingTapBar.release.xcconfig */,
-			);
-			name = "Pods-SegmentFadingTapBar";
-			path = "Target Support Files/Pods-SegmentFadingTapBar";
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				DA44EA8646AD046E24BBD2877C22B093 /* Products */,
-				67AEDBB09B490AE8878294AAE7E5E368 /* Targets Support Files */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				66A8AB96D4A6C59FDC7AA12C40C9E738 /* Products */,
+				488E9658C7F38BA01E31E13AFE356EE6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DA44EA8646AD046E24BBD2877C22B093 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1976719E7251B5C87789810E38433C1D /* Pods_SegmentFadingTapBar.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		708E008A96DF289F811A8C6F1C47F732 /* Headers */ = {
+		430B1E547791A78C76562B2EA88898EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8ACA0E495D1DF8F8CF156F85996B3EA /* Pods-SegmentFadingTapBar-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		66CAE69E3DD0D19DE62060FED889BE41 /* Pods-SegmentFadingTapBar */ = {
+		6AB33DC50DE3C833638008915B333D17 /* Pods-SegmentFadingTapBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F798EA0FB03185D089800E1502DCFCEB /* Build configuration list for PBXNativeTarget "Pods-SegmentFadingTapBar" */;
+			buildConfigurationList = EBE30F43DC31063341D1DB90D19604F9 /* Build configuration list for PBXNativeTarget "Pods-SegmentFadingTapBar" */;
 			buildPhases = (
-				708E008A96DF289F811A8C6F1C47F732 /* Headers */,
-				F33985F6A922455744D51551AC0F37FA /* Sources */,
-				FAA0C4DE11BB96EA0B9E0C94F3E150B4 /* Frameworks */,
-				491DB0D6BFAE2A79082C5B8471992D92 /* Resources */,
+				430B1E547791A78C76562B2EA88898EA /* Headers */,
+				B9F81D424EC5E0A4EDB2FCC8B49A99CC /* Sources */,
+				2D0ABA5E54FB5E61833367C031BD4FC0 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,8 +104,8 @@
 			);
 			name = "Pods-SegmentFadingTapBar";
 			productName = "Pods-SegmentFadingTapBar";
-			productReference = 1976719E7251B5C87789810E38433C1D /* Pods_SegmentFadingTapBar.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = E5E09C459A7E3C44EE9E9D808F22935E /* libPods-SegmentFadingTapBar.a */;
+			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
 
@@ -145,73 +124,69 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DA44EA8646AD046E24BBD2877C22B093 /* Products */;
+			productRefGroup = 66A8AB96D4A6C59FDC7AA12C40C9E738 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				66CAE69E3DD0D19DE62060FED889BE41 /* Pods-SegmentFadingTapBar */,
+				6AB33DC50DE3C833638008915B333D17 /* Pods-SegmentFadingTapBar */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		491DB0D6BFAE2A79082C5B8471992D92 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		F33985F6A922455744D51551AC0F37FA /* Sources */ = {
+		B9F81D424EC5E0A4EDB2FCC8B49A99CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12DAA281DA1CA3193A8DEC7BCB0CFBF /* Pods-SegmentFadingTapBar-dummy.m in Sources */,
+				F0E0968FEB2D5C124A96D8C424E3A69A /* Pods-SegmentFadingTapBar-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8E4C3C2F11F642B70D4922CD3C3B67BE /* Release */ = {
+		3616080990E683C41A7C23A2BAD67168 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A323F1BD57962AA84149C80AA6303B76 /* Pods-SegmentFadingTapBar.release.xcconfig */;
+			baseConfigurationReference = 7CFFC13529CF0D6FC1ADA5BA1BB53CDF /* Pods-SegmentFadingTapBar.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49EA27D357D14CA8B712157EBF623A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 786F3B6A5EACC9B57AE0E3BFB3D287A5 /* Pods-SegmentFadingTapBar.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -339,44 +314,6 @@
 			};
 			name = Debug;
 		};
-		C254579E345DF11CA7E0A121DB64F062 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99015FB617B5A392D5FA03D061A563AE /* Pods-SegmentFadingTapBar.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -389,11 +326,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F798EA0FB03185D089800E1502DCFCEB /* Build configuration list for PBXNativeTarget "Pods-SegmentFadingTapBar" */ = {
+		EBE30F43DC31063341D1DB90D19604F9 /* Build configuration list for PBXNativeTarget "Pods-SegmentFadingTapBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C254579E345DF11CA7E0A121DB64F062 /* Debug */,
-				8E4C3C2F11F642B70D4922CD3C3B67BE /* Release */,
+				3616080990E683C41A7C23A2BAD67168 /* Debug */,
+				49EA27D357D14CA8B712157EBF623A21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A20351BAF052AE957A6E562D /* Pods_SegmentFadingTapBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9895AF916EFE35A8FAD9B36C /* Pods_SegmentFadingTapBar.framework */; };
+		4341F9486EF8259DD74A2299 /* libPods-SegmentFadingTapBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */; };
 		CE99C5012227C35700D459A9 /* SegmentFadingTapBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE99C4FF2227C35700D459A9 /* SegmentFadingTapBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE99C5082227C3D300D459A9 /* SegmentFadingTapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C5072227C3D300D459A9 /* SegmentFadingTapBarView.swift */; };
 		CE99C5112227CB5500D459A9 /* SegmentFadingCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C50F2227CB5500D459A9 /* SegmentFadingCollectionItem.swift */; };
@@ -21,7 +21,7 @@
 
 /* Begin PBXFileReference section */
 		35EC42AA10DA93047E135A48 /* Pods-SegmentFadingTapBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentFadingTapBar.release.xcconfig"; path = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.release.xcconfig"; sourceTree = "<group>"; };
-		9895AF916EFE35A8FAD9B36C /* Pods_SegmentFadingTapBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SegmentFadingTapBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SegmentFadingTapBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD82780533E682A68523A003 /* Pods-SegmentFadingTapBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentFadingTapBar.debug.xcconfig"; path = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.debug.xcconfig"; sourceTree = "<group>"; };
 		CE99C4FC2227C35700D459A9 /* SegmentFadingTapBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentFadingTapBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99C4FF2227C35700D459A9 /* SegmentFadingTapBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentFadingTapBar.h; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A20351BAF052AE957A6E562D /* Pods_SegmentFadingTapBar.framework in Frameworks */,
+				4341F9486EF8259DD74A2299 /* libPods-SegmentFadingTapBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		F2BB1DB79F5E922944978CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9895AF916EFE35A8FAD9B36C /* Pods_SegmentFadingTapBar.framework */,
+				BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
