@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4341F9486EF8259DD74A2299 /* libPods-SegmentFadingTapBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */; };
 		CE99C5012227C35700D459A9 /* SegmentFadingTapBar.h in Headers */ = {isa = PBXBuildFile; fileRef = CE99C4FF2227C35700D459A9 /* SegmentFadingTapBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE99C5082227C3D300D459A9 /* SegmentFadingTapBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C5072227C3D300D459A9 /* SegmentFadingTapBarView.swift */; };
 		CE99C5112227CB5500D459A9 /* SegmentFadingCollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE99C50F2227CB5500D459A9 /* SegmentFadingCollectionItem.swift */; };
@@ -21,7 +20,6 @@
 
 /* Begin PBXFileReference section */
 		35EC42AA10DA93047E135A48 /* Pods-SegmentFadingTapBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentFadingTapBar.release.xcconfig"; path = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.release.xcconfig"; sourceTree = "<group>"; };
-		BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SegmentFadingTapBar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD82780533E682A68523A003 /* Pods-SegmentFadingTapBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SegmentFadingTapBar.debug.xcconfig"; path = "Target Support Files/Pods-SegmentFadingTapBar/Pods-SegmentFadingTapBar.debug.xcconfig"; sourceTree = "<group>"; };
 		CE99C4FC2227C35700D459A9 /* SegmentFadingTapBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SegmentFadingTapBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE99C4FF2227C35700D459A9 /* SegmentFadingTapBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SegmentFadingTapBar.h; sourceTree = "<group>"; };
@@ -41,7 +39,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4341F9486EF8259DD74A2299 /* libPods-SegmentFadingTapBar.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +51,6 @@
 				BD82780533E682A68523A003 /* Pods-SegmentFadingTapBar.debug.xcconfig */,
 				35EC42AA10DA93047E135A48 /* Pods-SegmentFadingTapBar.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,7 +100,6 @@
 		F2BB1DB79F5E922944978CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BA03AB0DF3F78B9450E83271 /* libPods-SegmentFadingTapBar.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -358,7 +353,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4C4SG6F6CP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -369,7 +364,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fundroots.SegmentFadingTapBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neldrick.SegmentFadingTapBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -386,7 +381,7 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 4C4SG6F6CP;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -397,7 +392,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fundroots.SegmentFadingTapBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.neldrick.SegmentFadingTapBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.2;
